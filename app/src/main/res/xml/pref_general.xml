@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditTextPreference
+        android:key="Location"
+        android:title="Location"
+        android:defaultValue="4808"
+        android:inputType="text"
+        android:singleLine="true"
+        />
+    <ListPreference
+        android:key="Units"
+        android:title="Units"
+        android:defaultValue="metric"
+        android:inputType="text"
+        android:entryValues="@array/Units"
+        android:entries="@array/Units"
+        />
+
+
+
+</PreferenceScreen>
